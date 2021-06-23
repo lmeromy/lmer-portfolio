@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
+import { Link } from 'react-scroll';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -26,6 +27,11 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
+          <span className="back-to-top">
+            <Link to="hero" smooth duration={1000}>
+              <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+            </Link>
+          </span>
           <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;

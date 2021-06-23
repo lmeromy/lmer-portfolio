@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
@@ -11,12 +12,15 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
+        <span className="back-to-top">
+          <Link to="hero" smooth duration={1000}>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+          </Link>
+        </span>
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
+            <p className="contact-wrapper__text">{cta || 'Get in touch!'}</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
