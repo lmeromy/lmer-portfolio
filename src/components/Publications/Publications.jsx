@@ -5,9 +5,9 @@ import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
-const About = () => {
-  const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+const Publications = () => {
+  const { publications } = useContext(PortfolioContext);
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = publications;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,9 +23,9 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about">
+    <section id="publications">
       <Container>
-        <Title title="About Me" />
+        <Title title="Publications" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -69,4 +69,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Publications;
