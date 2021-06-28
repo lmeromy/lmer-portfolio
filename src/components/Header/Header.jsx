@@ -6,9 +6,9 @@ const Header = () => (
   <header>
     <div className="container">
       <div className="inner-header">
-        <div className="logo">
+        {/* <div className="logo">
           <Link to="hero">LMER</Link>
-        </div>
+        </div> */}
         <div className="navigation">
           <nav>
             <Link to="about" smooth duration={1000}>
