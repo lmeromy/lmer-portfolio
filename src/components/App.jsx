@@ -23,7 +23,6 @@ function App() {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
