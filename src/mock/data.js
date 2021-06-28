@@ -55,7 +55,8 @@ export const projectsData = [
     info:
       'An educational app for elementary school-aged children to help them learn about the hydrologic cycle, and help them understand how they use water in their daily lives. Built as a paired project with my former colleague, Anna Henderson.',
     info2: 'Built with: Javascript, MongoDB, Express, Google Charts',
-    url: 'url to proj',
+    url:
+      'https://www.linkedin.com/pulse/educational-app-water-cycle-jsmongodb-paired-project-anna-henderson/',
     repo: 'https://github.com/lmeromy/water_cycle_javascript_project', // if no repo, the button will not show up
   },
   // {
@@ -68,18 +69,6 @@ export const projectsData = [
   //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   // },
 ];
-
-// ABOUT DATA
-export const publicationsData = {
-  img: 'CordesSurCiel.jpg',
-  paragraphOne:
-    'I have been building software for a few years now, but I started off my professional life as a hydrologist and environmental consultant. I enjoy digging through data and pulling out useful stories, untangling technical problems, and building software which makes the world a better place.',
-  paragraphTwo:
-    'When I am not working, I love to spend time hiking with my family and friends. I am quite accomplished at planning travel adventures (pre-pandemic)!',
-  paragraphThree: '____________________________________________________________________',
-  resume:
-    'https://docs.google.com/document/d/1epp1nkebx-sDAKjHf8tb1uAUj5lJLPkQN96NJM9WMms/edit?usp=sharing', // if no resume, the button will not show up
-};
 
 // CONTACT DATA
 export const contactData = {
