@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'CordesSurCiel.jpg',
-  paragraphOne: `I have been building software since I finished a four month bootcamp in 2018, but I started off my professional life as a hydrologist and environmental consultant. I enjoy digging through data and pulling out useful stories, untangling technical problems, and building software which makes the world a better place.`,
+  paragraphOne: `I have been building software since I finished a four month bootcamp in 2018, but I started off my professional life as a hydrologist and environmental consultant. I have lived and worked in the United States, France, and the United Kingdom. I enjoy digging through data and pulling out useful stories, untangling technical problems, and building software which makes the world a better place. J'aime aussi parler le français! `,
   paragraphTwo:
     'When I am not working, I love to spend time cooking, hiking, and spending time with my family and friends.',
   paragraphThree: '____________________________________________________________________',
